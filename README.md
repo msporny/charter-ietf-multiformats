@@ -5,7 +5,7 @@ inline data header and a data value. Multiformats have binary and text-based
 representations and are used to express base encodings (multibase),
 cryptographic hashes (multihash), cryptographic keys (multikey), network
 addresses (multiaddr), and a variety of other binary serialization formats
-(multicodec). 
+(multicodec).
 
 The scope of this Working Group is to discuss these formats as they relate to
 standardization at the IETF. Specifically, the group is currently focused on the
@@ -17,7 +17,7 @@ documents for these two Multiformats are:
 
 Outputs for the group will be:
 
-* A Multibase specification 
+* A Multibase specification
 * A Multihash specification
 * A registry for Multiformats with initial entries for Multibase and Multihash
 
@@ -33,6 +33,8 @@ listed in this section as well as other relevant groups as the work progresses.
 Items that are out of scope for the group include:
 
 * Standardizing multiformats that are not explicitly listed in the charter.
-* Creating or standardizing new data formats identified by a multiformat byte header.
+* Creating or standardizing new data formats identified by a multiformat byte
+  header.
 * Determining whether one data format is better than another data format.
-* Changing current Multiformat header assignments in a way that breaks backward compatability with production deployments.
+* Changing current Multiformat header assignments in a way that breaks backward
+  compatability with production deployments.
