@@ -32,9 +32,9 @@ listed in this section as well as other relevant groups as the work progresses.
 
 Items that are out of scope for the group include:
 
-* Standardizing multiformats that are not explicitly listed in the charter.
-* Creating or standardizing new data formats identified by a multiformat byte
+* Standardizing Multiformats that are not explicitly listed in the charter.
+* Creating or standardizing new data formats identified by a Multiformat byte
   header.
 * Determining whether one data format is better than another data format.
 * Changing current Multiformat header assignments in a way that breaks backward
-  compatability with production deployments.
+  compatibility with production deployments.
