@@ -8,11 +8,10 @@ header values and data values expressed in unsigned varints (a slight variation
 from protobuf varints and the UNIX LEB128 standard), with the exception of
 multibase, which base-encodes any valid binary multiformat and prepends its
 header to the target encoding rather than to the binary data value. The unsigned
-varint-based binary multiformats include headers for cryptographic hashes
-(multihash), cryptographic keys (multikey), network addresses (multiaddr), and a
-variety of other binary serialization formats that do not meet all the
-requirements to form part of the above registries (the rest of the
-[multicodec][1] entries).
+varint-based binary multiformats comprising the rest of the [multicodec][1]
+table include headers for cryptographic hashes (multihash), cryptographic keys
+(multikey), network addresses (multiaddr), as well as a handful of vendor and
+experimental registrations for interoperability purposes.
 
 The scope of this Working Group is to discuss these formats as they relate to
 standardization at the IETF. Specifically, the group is currently focused on the
