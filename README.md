@@ -6,7 +6,7 @@ more complex forms take another multiformat header/value tuple as value,
 recursively. Multiformats are designed to compose into binary streams with both
 header values and data values expressed in unsigned varints (a slight variation
 from protobuf varints and the UNIX LEB128 standard), with the exception of
-multibase, which base-encodes any valid binary multiformat and prepends its
+multibase, which base-encodes any binary and prepends its
 header to the target encoding rather than to the binary data value. The unsigned
 varint-based binary multiformats comprising the rest of the [multicodec][1]
 table include headers for cryptographic hashes (multihash), cryptographic keys
